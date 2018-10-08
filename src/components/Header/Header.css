@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+#button-addon2:hover{
+    text-decoration: transparent !important;
+}
+
+section{
+    margin-top: 0px;
+}
+
+#styleContainer{
+    background: black;
+    height: 0px;
+}
+
+.rowBanner{
+    padding: 5px 5px 15px 0;
+    position: relative;
+    background-color: black;
+    margin: 2px;
+}
+
+.imgBanner{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+ .title{
+    color: white;
+    font-weight: 300;
+    font-size: 10px;
+    font-size: 4.0vw;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    justify-content: center;
+    letter-spacing: 10px;
+    opacity: 0.6;
+    margin-left: 20px;
+    padding-top: 3%;
+} 
+@media only screen and (max-width: 900px) {
+    .title {
+        font-size:120px !important;
+    }
+}
+.title span{
+    font-family:'Raleway', sans-serif;
+    color: white;
+    font-size: 8.5vw;
+    opacity:0;
+    font-weight: 900;
+    animation: blinker 3s linear infinite;
+} 
+
+
+@keyframes blinker {  
+    0%{
+        opacity: 0;
+        }
+    25%{
+        opacity: .25;
+        }
+    50%{
+        opacity: .50;
+        }
+    75%{
+        opacity: .75;
+        }
+   }
+
+

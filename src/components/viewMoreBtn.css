@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.footer{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.stylebtn{
+    color: white;
+    background-color: black;
+    padding: 15px 7px 15px 7px;
+    opacity: 0.8;
+    font-size:15px;
+    font-family:'Raleway', sans-serif;
+    
+}
+
+.stylebtn:hover{
+    background-color: orange;
+}
+

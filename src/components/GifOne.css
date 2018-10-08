@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.cardStyle{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.sourceBtn{
+    color: white;
+    background-color: black;
+}
+
+.downloadBtn{
+    margin-top:10px;
+    background: black;
+    color: orange;
+    border: none;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 span{
+    color: orange;
+}
+
+.twiticon{
+    color: orange;
+    font-size: 25px;
+    margin-top:5px;
+}
+
+.titleOfcard{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+}

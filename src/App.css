@@ -1,0 +1,16 @@
+.App {
+  margin-top: 70px;
+  background-color: black;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+ 
+  color: white;
+ 
+  position: fixed;
+  
+  background-color: black;
+}
